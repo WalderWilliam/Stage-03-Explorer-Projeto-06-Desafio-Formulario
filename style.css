@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #bfd7e4;
+}
+
+header {
+  background-color: #293241;
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: white;
+
+  height: 45px;
+  width: 282px;
+  margin: auto;
+  padding-top: 107px;
+}
+
+header p {
+  font-weight: 400;
+  color: white;
+  height: 46px;
+  width: 391px;
+  margin: auto;
+}
+
+header img {
+  padding-bottom: 32px;
+}
+
+.redLegend {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 24px;
+
+  height: 133px;
+  width: 750px;
+  margin: auto;
+  border-radius: 20px 20px 0px 0px;
+
+  background-color: #f67669;
+  border-style: none;
+  color: white;
+}
+
+.redLegend legend {
+  padding-top: 50px;
+}
+
+#fieldset {
+  height: 1075px;
+  width: 750px;
+  background-color: white;
+  margin: auto;
+  border-radius: 0px 0px 20px 20px;
+  margin-bottom: 392px;
+  border-style: none;
+}
+
+.nameStyle {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+  gap: 22px;
+  padding: 30px 64px 15px 64px;
+}
+
+.nameStyle label {
+  color: #4e4958;
+}
+
+.styleLabel {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.styleLabel input {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 270px;
+  height: 40px;
+
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.styleEmail {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: start;
+  flex-direction: column;
+  padding: 0px 64px 32px 64px;
+  gap: 8px;
+}
+
+.styleEmail label {
+  color: #4e4958;
+}
+
+.styleEmail span {
+  color: #c1bccc;
+}
+
+.styleEmail input {
+  height: 40px;
+
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.legend {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #253b51;
+  border-bottom: 1px solid #e6e6f0;
+  margin: auto;
+  width: 622px;
+  padding-bottom: 8px;
+}
+
+.mentorStyle label {
+  color: #4e4958;
+}
+
+.mentorStyle select {
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  height: 60px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.mentorStyle {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  text-align: start;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 64px 32px 64px;
+}
+
+.feedbackStyle {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  text-align: start;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 64px 30px 64px;
+}
+
+.feedbackStyle label {
+  color: #4e4958;
+}
+
+.textarea {
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  max-width: 600px;
+  min-width: 600px;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.checkboxStyle {
+  display: flex;
+  color: #4e4958;
+  gap: 8px;
+  padding: 0px 64px 30px 64px;
+}
+
+.checkboxStyle input {
+  width: 24px;
+  cursor: pointer;
+}
+
+.agend {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+
+  padding: 32px 64px 64px 64px;
+}
+
+.agend label {
+  color: #4e4958;
+}
+
+.agend span {
+  color: #c1bccc;
+}
+
+.agend input {
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dateStyle {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+
+.dateStyle input {
+  height: 40px;
+  width: 280px;
+}
+
+.dasStyle {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+}
+
+.dasStyle input {
+  height: 40px;
+  width: 120px;
+}
+
+.ateStyle {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.ateStyle input {
+  height: 40px;
+  width: 120px;
+}
+
+footer button {
+  width: 622px;
+  height: 50px;
+
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+
+  background: #f67669;
+  border-radius: 8px;
+  border-style: none;
+}
+
+footer button:hover {
+  background: #fa604f;
+  cursor: pointer;
+}
